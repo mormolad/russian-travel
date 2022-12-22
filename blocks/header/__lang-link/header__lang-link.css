@@ -1,0 +1,12 @@
+.header__lang-link {
+    position: relative;
+    width: 30px;
+    height: 28px;
+    justify-self: end;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
+    color: #FFFFFF;
+    margin: 46px 18px 0 0;
+}
