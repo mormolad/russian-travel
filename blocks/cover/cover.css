@@ -1,0 +1,8 @@
+.cover {
+  display: grid;
+  grid-template-columns: 1184px;
+  grid-template-rows: 740px;
+
+  background-image: url(../../images/baikal-background.png);
+  margin: 0 auto;
+}

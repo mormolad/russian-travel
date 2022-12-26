@@ -1,6 +1,7 @@
 .header {
+    max-width: 1280px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 48px 78px;
     align-content: center;
-
 }

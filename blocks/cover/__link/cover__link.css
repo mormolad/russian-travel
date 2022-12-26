@@ -1,0 +1,11 @@
+.cover__link {
+  grid-area: 1 / 1 / 2 / 2;
+
+  background-color: rgb(42, 44, 47, 0.3);
+
+  text-decoration: none;
+}
+
+.cover__link:hover {
+  background-color: rgb(42, 44, 47, 0.8);
+}
