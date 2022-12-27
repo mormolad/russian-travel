@@ -6,3 +6,18 @@
   background-image: url(../../images/baikal-background.png);
   margin: 0 auto;
 }
+
+@media screen and (max-width: 1280px) {
+  .cover {
+    grid-template-columns: 926px;
+    grid-template-rows: 580px;
+
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .cover {
+    grid-template-columns: 728px;
+    grid-template-rows: 460px;
+  }
+}

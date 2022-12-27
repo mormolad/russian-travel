@@ -10,3 +10,17 @@
     color: #FFFFFF;
     margin: 46px 18px 0 0;
 }
+
+@media screen and (max-width: 500px) {
+    .header__lang-link {
+        width: 22px;
+        height: 20px;
+
+
+        font-size: 18px;
+        line-height: 20px;
+
+
+        margin: 30px 18px 0 0;
+    }
+}

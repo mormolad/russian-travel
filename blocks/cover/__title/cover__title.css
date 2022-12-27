@@ -12,3 +12,16 @@
 
   color: #FFFFFF;
 }
+
+
+@media screen and (max-width: 1184px) {
+  .cover__title {
+    margin: 195px auto 32px auto;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .cover__title {
+    margin: 115px auto 32px auto;
+  }
+}
