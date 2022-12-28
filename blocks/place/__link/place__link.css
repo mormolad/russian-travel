@@ -9,3 +9,7 @@
 
   color: #FFFFFF;
 }
+
+.place__link.place__link:hover {
+  opacity: 0.8;
+}
