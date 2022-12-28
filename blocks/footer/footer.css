@@ -10,3 +10,21 @@
   font-size: 16px;
   line-height: 18px;
 }
+
+@media screen and (max-width: 980px) {
+  .footer {
+    width: 720px;
+
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .footer {
+    width: 320px;
+    display: block;
+
+    font-size: 14px;
+    line-height: 14px;
+  }
+}

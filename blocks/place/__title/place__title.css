@@ -11,3 +11,27 @@
 
   color: #FFFFFF;
 }
+
+@media screen and (max-width: 1050px) {
+  .place__title {
+    width: 440px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .place__title {
+    width: 340px;
+
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__title {
+    width: 320px;
+
+    font-size: 32px;
+    line-height: 35px;
+  }
+}

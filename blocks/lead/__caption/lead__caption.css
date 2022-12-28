@@ -1,5 +1,5 @@
 .lead__caption {
-  justify-self: start;
+  width: 984px;
   margin: 0;
 
   font-family: 'Inter';
@@ -11,4 +11,23 @@
   text-transform: uppercase;
 
   color: #FFFFFF;
+}
+
+@media screen and (max-width: 1184px) {
+  .lead__caption {
+    width: 928px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .lead__caption {
+    width: 768px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .lead__caption {
+    width: 320px;
+
+  }
 }
