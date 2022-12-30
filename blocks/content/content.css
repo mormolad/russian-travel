@@ -2,5 +2,27 @@
   margin: 0 auto;
   display: grid;
   grid-row-gap: 92px;
+  justify-content: center;
+  max-width: 984px;
+}
 
+@media screen and (max-width: 1184px) {
+  .content {
+    max-width: 928px;
+
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .content {
+    max-width: 720px;
+
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .content {
+    max-width: 320px;
+
+  }
 }
