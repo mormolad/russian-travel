@@ -4,21 +4,22 @@
   grid-template-rows: 740px;
 
   background-image: url(../../images/baikal-background.png);
+  background-position: center;
   margin: 0 auto;
 }
 
 @media screen and (max-width: 1184px) {
   .cover {
-    grid-template-columns: 926px;
-    grid-template-rows: 580px;
+    grid-template-columns: 1024px;
+    grid-template-rows: 640px;
 
   }
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1023px) {
   .cover {
     grid-template-columns: 768px;
-    grid-template-rows: 460px;
+    grid-template-rows: 480px;
   }
 }
 

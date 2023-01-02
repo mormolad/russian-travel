@@ -14,5 +14,6 @@
         grid-template-columns: min-content;
         grid-template-rows: repeat(5, auto);
         grid-row-gap: 32px;
+        margin: 0 16px;
     }
 }

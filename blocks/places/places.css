@@ -2,7 +2,7 @@
   width: 984px;
   margin: 0 auto;
   display: grid;
-  grid-row-gap: 48px;
+  grid-row-gap: 80px;
 }
 
 
@@ -15,11 +15,14 @@
 @media screen and (max-width: 980px) {
   .places {
     width: 720px;
+    grid-row-gap: 73px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .places {
     width: 320px;
+    grid-row-gap: 50px;
+
   }
 }
