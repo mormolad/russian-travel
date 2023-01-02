@@ -9,20 +9,19 @@
 @media screen and (max-width: 1184px) {
   .content {
     max-width: 928px;
-
   }
 }
 
 @media screen and (max-width: 960px) {
   .content {
     max-width: 720px;
-
+    grid-row-gap: 88px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .content {
     max-width: 320px;
-
+    grid-row-gap: 64px;
   }
 }

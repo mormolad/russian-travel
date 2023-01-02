@@ -5,13 +5,13 @@
 
   display: grid;
   margin-top: 56px;
-
 }
 
 @media screen and (max-width: 1184px) {
   .lead {
     max-width: 928px;
     min-height: 580px;
+    margin-top: 48px;
   }
 }
 
@@ -19,6 +19,7 @@
   .lead {
     max-width: 768px;
     min-height: 480px;
+
   }
 }
 

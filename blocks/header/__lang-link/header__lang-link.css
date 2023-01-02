@@ -1,7 +1,6 @@
 .header__lang-link {
     position: relative;
-    max-width: 30px;
-    min-height: 28px;
+
     font-family: 'Inter';
     font-weight: 400;
     font-style: normal;
@@ -9,21 +8,17 @@
     line-height: 28px;
     text-align: right;
     color: #FFFFFF;
-    margin: 46px 18px 0 0;
+    margin: 46px 0 0 0;
 
     text-decoration: none;
-    justify-self: start;
+    justify-self: end;
 
 }
 
+
 @media screen and (max-width: 500px) {
     .header__lang-link {
-        max-width: 22px;
-        min-height: 20px;
-
         font-size: 18px;
         line-height: 20px;
-
-        margin: 30px 18px 0 0;
     }
 }

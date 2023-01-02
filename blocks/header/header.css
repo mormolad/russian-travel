@@ -2,18 +2,30 @@
     max-width: 1184px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 48px 78px;
+    grid-template-columns: 1fr min-content 48px;
     align-content: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1279px) {
     .header {
-        grid-template-columns: 1fr 48px 53px;
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .header {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        max-width: 320px;
     }
 }
 
 @media screen and (max-width: 400px) {
     .header {
-        grid-template-columns: 1fr 40px 45px;
+        grid-template-columns: 1fr min-content 38px;
     }
 }
