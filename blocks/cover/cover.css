@@ -1,32 +1,31 @@
 .cover {
-  display: grid;
-  grid-template-columns: 1184px;
-  grid-template-rows: 740px;
+  width: 1184px;
+  height: 740px;
 
   background-image: url(../../images/baikal-background.png);
-  background-position: center;
+  background-size: cover;
   margin: 0 auto;
 }
 
 @media screen and (max-width: 1184px) {
   .cover {
-    grid-template-columns: 1024px;
-    grid-template-rows: 640px;
-
+    width: 1024px;
+    height: 640px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .cover {
-    grid-template-columns: 768px;
-    grid-template-rows: 480px;
+    height: 480px;
+    width: 768px;
+
   }
 }
 
 @media screen and (max-width: 767px) {
   .cover {
-    grid-template-columns: 320px;
-    grid-template-rows: 200px;
+    width: 320px;
+    height: 200px;
 
     background-image: url(../../images/baikal-backgroundS.jpg);
   }
